@@ -1,0 +1,19 @@
+.button {
+  background-color: gray;
+  border-radius: 10px;
+  padding: 0.5em 1em;
+  color: white;
+}
+
+.button:hover {
+  box-shadow: 5px 5px 5px gray;
+}
+
+.container {
+  background-color: gray;
+  width: 50vw;
+  height: 50vh;
+  color: white;
+  box-shadow: 5px 5px 5px gray;
+  padding: 5%;
+}/*# sourceMappingURL=main.css.map */
