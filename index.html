@@ -4,24 +4,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Übung</title>
+    <title>Übung : Horoskop</title>
     <link rel="stylesheet" href="assets/scss/main.css" />
   </head>
 
   <body>
-
     <h1>Bitte gib deinen Geburtsmonat ein (z.B.: jan, feb, mar, apr, mai, jun, jul, aug, sept, okt, nov, dez)</h1>
     <div class="horoskopContainer">
       <form class="formular">
-      <input type="text" name="text" id="eingabe">
+        <input type="text" name="text" id="eingabe" />
         <a type="button" class="button" onclick="monatAbschicken()" value="buttonAbschicken">Zeige mir mein Horoskop</a>
       </form>
-      <div id="ausgabe" class="container">
-      
-      </div>
+      <div id="ausgabe" class="container"></div>
+    </div>
+
+    <br /><br />
+    <hr />
+    <br /><br />
+
+    <div class="zwei">
+      <h1>Bitte wähle einen Geburtsmonat aus der Liste</h1>
+
+      <form action="" class="formular">
+        <select name="meineListe" size="12"  id="meineListe">
+          <option value="jan">Januar</option>
+          <option value="feb">Februar</option>
+          <option value="mar">März</option>
+          <option value="apr">April</option>
+          <option value="mai">Mai</option>
+          <option value="jun">Juni</option>
+          <option value="jul">Juli</option>
+          <option value="aug">August</option>
+          <option value="sep">September</option>
+          <option value="okt">Oktober</option>
+          <option value="nov">November</option>
+          <option value="dez">Dezember</option>
+        </select>
+        <a type="button" class="button" onclick="monatAbschicken2()" value="buttonAbschicken">Zeige mir mein Horoskop</a>
+        <div id="ausgabe2" class="container"></div>
+      </form>
     </div>
 
     <script src="https://kit.fontawesome.com/414a930ca8.js" crossorigin="anonymous"></script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>
+
+<img src="" alt="" />
+<h2></h2>
